@@ -152,7 +152,6 @@ int end_of_game() {
 			if (tab[j][i] == 1 || tab[j][i] ==2 ) temp++;
 		}
 		if (temp == 9) return 2;
-		cout << endl << temp << endl;
 	}
 	temp = 0;
 
